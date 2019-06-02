@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import Home from "./componenets/Home/Home";
 import Cartz from "./componenets/Cartz/Cartz";
-import Test from "./componenets/Test";
 
 class App extends Component {
   render() {
@@ -12,7 +11,7 @@ class App extends Component {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/cart/" component={Cartz} />
-          <Route exact path="/Test" component={Test} />
+
           <Route exact path="*" component={Home} />
         </Switch>
       </Router>
