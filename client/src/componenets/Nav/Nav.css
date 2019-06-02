@@ -1,0 +1,17 @@
+.cartnumber {
+  filter: drop-shadow(0 0 0.2rem rgb(168, 2, 33));
+  background-color: rgb(236, 45, 45);
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 50%;
+  color: white;
+  z-index: 10;
+  position: relative;
+  margin-top: -35px;
+  margin-left: 15px;
+}
+.nav {
+  padding: 0.25em;
+  padding-left: 1em;
+  background-color: wheat;
+}
